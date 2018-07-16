@@ -1,0 +1,130 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   background-image: url("../../../assets/img/Black-Wood-high-Quality-Background.jpg")
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .msgno{
+    color:red;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: black;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+     margin-left: 30px;
+    }
+  }
+  
+  .sidenav {
+    height: 100%;
+    width:250px;
+    position: fixed;
+    z-index: 999;
+    top: 60px;
+    left: 0;
+   background-color:rgb(5, 2, 49);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a span{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #a39b9b;
+    transition: 0.8s;
+    background-color: rgba(218, 19, 208, 0.5);
+    box-shadow: inset;
+    border-bottom-color:  	#FF00FF;
+    
+  }
+  
+  .sidenav a span:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  }
+  
+  .avatar {
+  
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-top:-20px;
+  }
+  
+  .topnavicon{
+    padding-bottom: 15px;
+    padding-left:10px;
+    padding-right:10px;
+    
+  }
+  
+  
+  
+  
+  
